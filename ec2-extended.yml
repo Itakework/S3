@@ -1,0 +1,62 @@
+Resources:
+  Instances:
+    Type: AWS::EC2::Instance
+    Properties:
+      AdditionalInfo: String
+      Affinity: String
+      AvailabilityZone: String
+      BlockDeviceMappings: 
+        - BlockDeviceMapping: {}  # You need to provide proper structure here
+      CpuOptions: 
+        CpuOptions: {}  # Add structure for CpuOptions if needed
+      CreditSpecification: 
+        CreditSpecification: {}  # Add structure for CreditSpecification if needed
+      DisableApiTermination: Boolean
+      EbsOptimized: Boolean
+      ElasticGpuSpecifications: 
+        - ElasticGpuSpecification: {}  # Add structure for ElasticGpuSpecification if needed
+      ElasticInferenceAccelerators: 
+        - ElasticInferenceAccelerator: {}  # Add structure for ElasticInferenceAccelerator if needed
+      EnclaveOptions: 
+        EnclaveOptions: {}  # Add structure for EnclaveOptions if needed
+      HibernationOptions: 
+        HibernationOptions: {}  # Add structure for HibernationOptions if needed
+      HostId: String
+      HostResourceGroupArn: String
+      IamInstanceProfile: String
+      ImageId: String
+      InstanceInitiatedShutdownBehavior: String
+      InstanceType: String
+      Ipv6AddressCount: Integer
+      Ipv6Addresses: 
+        - InstanceIpv6Address: {}  # Add structure for InstanceIpv6Address if needed
+      KernelId: String
+      KeyName: String
+      LaunchTemplate: 
+        LaunchTemplateSpecification: {}  # Add structure for LaunchTemplateSpecification if needed
+      LicenseSpecifications: 
+        - LicenseSpecification: {}  # Add structure for LicenseSpecification if needed
+      Monitoring: Boolean
+      NetworkInterfaces: 
+        - NetworkInterface: {}  # Add structure for NetworkInterface if needed
+      PlacementGroupName: String
+      PrivateDnsNameOptions: 
+        PrivateDnsNameOptions: {}  # Add structure for PrivateDnsNameOptions if needed
+      PrivateIpAddress: String
+      PropagateTagsToVolumeOnCreation: Boolean
+      RamdiskId: String
+      SecurityGroupIds: 
+        - String
+      SecurityGroups: 
+        - String
+      SourceDestCheck: Boolean
+      SsmAssociations: 
+        - SsmAssociation: {}  # Add structure for SsmAssociation if needed
+      SubnetId: String
+      Tags: 
+        - Key: String
+          Value: String
+      Tenancy: String
+      UserData: String
+      Volumes: 
+        - Volume: {}  # Add structure for Volume if needed
